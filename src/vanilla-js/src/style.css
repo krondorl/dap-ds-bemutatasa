@@ -1,0 +1,34 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('./assets/fonts/InterVariable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: var(--dds-neutral-1200);
+  background-color: var(--dds-white-100);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  padding: var(--dds-font-base);
+}
+
+div {
+  margin-block-end: var(--dds-font-base);
+}
+
+.main {
+  margin: 0 auto;
+  max-width: var(--dds-containers-large);
+}
